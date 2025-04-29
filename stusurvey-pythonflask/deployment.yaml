@@ -1,22 +1,22 @@
 apiVersion: apps/v1
 kind: Deployment
 metadata:
-  name: hw3-deployment
+  name: deployment645
+  namespace: default
 spec:
   replicas: 3
   selector:
     matchLabels:
-      app: hw3
+      app: deployment645
   template:
     metadata:
       labels:
-        app: hw3
+        app: deployment645
     spec:
       containers:
-      - name: hw3-container
-        image: tarunchadaram/stusurvey-app:latest
-
-        imagePullPolicy: Always
-        ports:
-        - containerPort: 8080
-       
+        - name: extracred-645
+          image: tarunchadaram/studsurvextracred:latest
+          imagePullPolicy: Always
+          ports:
+            - containerPort: 8080
+              protocol: TCP
