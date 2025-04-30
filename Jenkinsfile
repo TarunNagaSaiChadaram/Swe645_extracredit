@@ -14,7 +14,7 @@ Jenkins Pipeline Summary:
 pipeline {
     agent any
     environment {
-        IMAGE_NAME = "tarunchadaram/stusurvey-app"
+        IMAGE_NAME = "tarunchadaram/studsurveextracred"
         TAG = "${env.BUILD_ID}"
     }
     stages {
