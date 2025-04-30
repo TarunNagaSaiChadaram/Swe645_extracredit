@@ -1,3 +1,8 @@
+# Done By:
+# Samanvitha Matta
+# Tarun Naga Chadaram
+# Akshaya Reddy 
+
 from flask import Flask, request, jsonify
 from database import db
 from models import StudentSurvey
