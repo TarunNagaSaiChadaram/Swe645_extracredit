@@ -13,9 +13,11 @@ spec:
       labels:
         app: deployment645
     spec:
+      imagePullSecrets:
+        - name: dockerhub-secret
       containers:
         - name: extracred-645
-          image: tarunchadaram/studsurvextracred:latest
+          image: tarunchadaram/studsurveextracred:latest
           imagePullPolicy: Always
           ports:
             - containerPort: 8080
