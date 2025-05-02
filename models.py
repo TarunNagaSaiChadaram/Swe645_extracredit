@@ -1,3 +1,9 @@
+# - Samanvitha Matta (G01252738)
+# - Akshaya Reddy Dundigalla (G01482843)
+# - Tarun Naga Sai Chadaram (G01445928)
+#The StudentSurvey model is defined using SQLAlchemy ORM.
+# Shows the'studsurvectab' table, which contains the data from the student survey.
+
 from database import db
 
 class StudentSurvey(db.Model):
