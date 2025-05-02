@@ -1,3 +1,8 @@
+# - Samanvitha Matta (G01252738)
+# - Akshaya Reddy Dundigalla (G01482843)
+# - Tarun Naga Sai Chadaram (G01445928)
+#The'studsurveextracred' container is deployed using Kubernetes to operate three replicas.
+#A Docker Hub image is used, along with secret pulls and port 8080 exposure.
 apiVersion: apps/v1
 kind: Deployment
 metadata:
