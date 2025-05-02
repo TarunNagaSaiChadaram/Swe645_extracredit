@@ -1,3 +1,7 @@
+# - Samanvitha Matta (G01252738)
+# - Akshaya Reddy Dundigalla (G01482843)
+# - Tarun Naga Sai Chadaram (G01445928)
+# This service allows external access to the application that is running in the deployment. It routes traffic to the container on port 5001 from the Node's IP on port 32000.
 apiVersion: v1
 kind: Service
 metadata:
