@@ -1,7 +1,9 @@
 # Done By:
-# Samanvitha Matta
-# Tarun Naga Chadaram
-# Akshaya Reddy 
+# - Samanvitha Matta (G01252738)
+# - Akshaya Reddy Dundigalla (G01482843)
+# - Tarun Naga Sai Chadaram (G01445928)
+# A Flask application that uses RESTful APIs to manage Student Survey CRUD operations
+# Establishes a connection to a configured database and makes create, read, update, and delete endpoints available.
 
 # Demo Done
 
